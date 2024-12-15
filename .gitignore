@@ -1,0 +1,13 @@
+ps2usb-backups
+*.lck
+.DS_Store
+/CMZJ2-backups
+/CMZJ2-backups
+\#auto_saved_files\#
+_autosave-CMZJ2.kicad_sch
+/minifrank-backups
+/frank2-backups
+/frank2-backups
+fp-info-cache
+fp-info-cache
+/core-backups
