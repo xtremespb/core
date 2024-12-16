@@ -148,151 +148,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:Jumper_2_Bridged"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_1"
-				(arc
-					(start 1.524 0.254)
-					(mid 0 0.762)
-					(end -1.524 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_names
 				(offset 0) hide)
@@ -932,33 +787,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 45.72) (xy 85.09 45.72)
+			(xy 74.93 45.72) (xy 105.41 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "08a69989-1306-4a84-b1c2-cc67b39e1b2b")
-	)
-	(wire
-		(pts
-			(xy 95.25 48.26) (xy 105.41 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b2cc532-b56f-4e17-afb8-2a9bcc2b33fc")
-	)
-	(wire
-		(pts
-			(xy 95.25 45.72) (xy 105.41 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27531eae-848a-468a-b4c2-2e58e1295cac")
 	)
 	(wire
 		(pts
@@ -992,7 +827,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 48.26) (xy 85.09 48.26)
+			(xy 74.93 48.26) (xy 105.41 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1080,18 +915,47 @@
 		)
 		(uuid "f4916e97-eb83-4636-97e2-cd609c2b5be7")
 	)
-	(text "PSRAM"
+	(text "GPIO21"
 		(exclude_from_sim no)
-		(at 27.686 27.94 0)
+		(at 118.872 58.42 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "2dee7d6b-9191-4d2e-8a6a-13eb1cda7eac")
+		(uuid "100d50e8-bdec-4b25-81e1-3839bd570984")
 	)
-	(hierarchical_label "GPIO20"
+	(text "GPIO19"
+		(exclude_from_sim no)
+		(at 118.618 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3fe290b6-fbbb-4153-8746-1c18fd56e436")
+	)
+	(text "GPIO20"
+		(exclude_from_sim no)
+		(at 118.872 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3821e71-c99f-4536-9ec3-ef7b275389c3")
+	)
+	(text "GPIO18"
+		(exclude_from_sim no)
+		(at 118.618 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff4b15aa-656c-4c0f-9fff-23b655ce07f8")
+	)
+	(hierarchical_label "SISIO"
 		(shape input)
 		(at 105.41 55.88 0)
 		(fields_autoplaced yes)
@@ -1103,7 +967,7 @@
 		)
 		(uuid "036454b1-23ce-449b-a642-6ca7cf5f7c34")
 	)
-	(hierarchical_label "GPIO18"
+	(hierarchical_label "CE"
 		(shape input)
 		(at 105.41 45.72 0)
 		(fields_autoplaced yes)
@@ -1115,7 +979,7 @@
 		)
 		(uuid "7e07a2fb-d6d4-4fb0-9213-2759edfb1442")
 	)
-	(hierarchical_label "GPIO19"
+	(hierarchical_label "SCLK"
 		(shape input)
 		(at 105.41 48.26 0)
 		(fields_autoplaced yes)
@@ -1127,7 +991,7 @@
 		)
 		(uuid "84612d25-5aed-4d8e-8190-a46850a45371")
 	)
-	(hierarchical_label "GPIO21"
+	(hierarchical_label "SOSIO"
 		(shape input)
 		(at 105.41 58.42 0)
 		(fields_autoplaced yes)
@@ -1138,74 +1002,6 @@
 			(justify left)
 		)
 		(uuid "f9fb02ea-b2c6-4229-8d9d-48c27d5b03a4")
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 90.17 45.72 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "030bf9d4-ea4e-4f1a-bdfc-1e88049645e3")
-		(property "Reference" "JP8"
-			(at 90.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RP ZERO +5V Jumper"
-			(at 90.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LIBS:Medved_PinHeader_1x02_P2.54mm_Vertical_R"
-			(at 90.17 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 90.17 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6cbaeb84-eace-4d8a-b703-67ac9772ce2b")
-		)
-		(pin "1"
-			(uuid "645781c2-efbd-4d43-bbab-e77728fd187a")
-		)
-		(instances
-			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cfde7a60-7ac3-405d-8b86-f95521b6825b"
-					(reference "JP8")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1266,76 +1062,8 @@
 		)
 		(instances
 			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cfde7a60-7ac3-405d-8b86-f95521b6825b"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 90.17 48.26 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "652727ba-b143-4ee8-a18a-b5c48596c712")
-		(property "Reference" "JP9"
-			(at 90.17 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RP ZERO +5V Jumper"
-			(at 90.17 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LIBS:Medved_PinHeader_1x02_P2.54mm_Vertical_R"
-			(at 90.17 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 90.17 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1c27005-6652-4daa-94f3-db7bd88fffdb")
-		)
-		(pin "1"
-			(uuid "eb75c0e1-6c67-4e6f-80ed-f40aad232efa")
-		)
-		(instances
-			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cfde7a60-7ac3-405d-8b86-f95521b6825b"
-					(reference "JP9")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -1400,8 +1128,8 @@
 		)
 		(instances
 			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cfde7a60-7ac3-405d-8b86-f95521b6825b"
-					(reference "#PWR067")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -1488,7 +1216,7 @@
 		)
 		(instances
 			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cfde7a60-7ac3-405d-8b86-f95521b6825b"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
 					(reference "PSR1")
 					(unit 1)
 				)
@@ -1557,8 +1285,8 @@
 		)
 		(instances
 			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cfde7a60-7ac3-405d-8b86-f95521b6825b"
-					(reference "C18")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -1625,8 +1353,8 @@
 		)
 		(instances
 			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cfde7a60-7ac3-405d-8b86-f95521b6825b"
-					(reference "JP10")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -1690,8 +1418,8 @@
 		)
 		(instances
 			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/cfde7a60-7ac3-405d-8b86-f95521b6825b"
-					(reference "#PWR044")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)

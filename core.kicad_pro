@@ -41,7 +41,7 @@
           "height": 1.45,
           "width": 0.6
         },
-        "silk_line_width": 0.12,
+        "silk_line_width": 0.2,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
@@ -238,9 +238,7 @@
   },
   "erc": {
     "erc_exclusions": [
-      "power_pin_not_driven|1727200|292100|a163136a-7ec7-4bb0-b1aa-86abf5e8bc87|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
       "power_pin_not_driven|1790700|685800|3ea58aa9-034e-458e-9991-d9a637841bda|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b0409f8e-084a-4c18-99f6-a5d70280ca34|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b0409f8e-084a-4c18-99f6-a5d70280ca34|",
-      "power_pin_not_driven|215900|1384300|9c874e3b-f676-412c-83f6-6943d6817297|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
       "power_pin_not_driven|762000|431800|805fe003-b278-424a-ad0f-8ab09010b03b|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|"
     ],
     "meta": {
@@ -474,7 +472,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.35,
         "wire_width": 6
@@ -863,6 +861,14 @@
     [
       "44b0fc63-213a-4da4-a0e4-3ab9f837f02d",
       "Reset"
+    ],
+    [
+      "db853a64-9343-4a36-b5b8-71001392b936",
+      "HDMI"
+    ],
+    [
+      "c6465a8b-a48e-459c-b6f3-7a504929a2d8",
+      "PSRAM"
     ]
   ],
   "text_variables": {}
