@@ -924,15 +924,15 @@
 		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "47002767-7b9f-4438-bcab-61bedf441643")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-9_Male_EdgeMount_P2.77mm.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-9_Male_Vertical_P2.77x2.84mm.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -5.5 -3 0.7)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )

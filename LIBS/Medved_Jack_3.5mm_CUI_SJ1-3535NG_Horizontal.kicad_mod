@@ -299,6 +299,7 @@
 		(uuid "801c925a-0d35-4366-84b1-554dcb9c6a1d")
 	)
 	(model "${KIPRJMOD}/3D/SJ1-3535NG.stp"
+		(hide yes)
 		(offset
 			(xyz 1 5.5 7)
 		)
@@ -307,6 +308,17 @@
 		)
 		(rotate
 			(xyz 180 0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/3D/PJ325.step"
+		(offset
+			(xyz 4 -5.7 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 -90)
 		)
 	)
 )
