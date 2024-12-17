@@ -6,10 +6,10 @@
 	(paper "A3")
 	(title_block
 		(title "CORE")
-		(date "2024-12-16")
+		(date "2024-12-17")
 		(rev "1.0")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/xtremespb/frank2")
+		(comment 1 "https://github.com/xtremespb/core")
 	)
 	(lib_symbols
 		(symbol "Device:C"
